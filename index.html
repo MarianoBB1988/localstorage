@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage - Gaseosas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Venta de Gaseosas</h1>
+        
+        <!-- Formulario para agregar productos -->
+        <div class="form-container">
+            <form id="formProducto">
+                <input type="text" id="nombre" placeholder="Nombre del producto" required>
+                <input type="number" id="precio" placeholder="Precio" required>
+                <button type="submit">Agregar</button>
+                <button type="button" id="btnLimpiar">Limpiar Todo</button>
+            </form>
+        </div>
+
+        <!-- Lista de productos -->
+        <div class="productos-container">
+            <div id="listaProductos"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
